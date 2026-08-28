@@ -1,0 +1,17 @@
+name: radio_px
+description: Rádio PX Digital — Push-to-Talk
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  web_socket_channel: ^2.4.0
+  record: ^5.0.0
+  audioplayers: ^5.2.0
+  permission_handler: ^11.0.0
+
+flutter:
+  uses-material-design: true
